@@ -33,5 +33,5 @@ promotions:
     pipeline_file: pipeline_3.yml
   - name: Promotion 3
     pipeline_file: pipeline_4.yml
-  - name: test & publish
+  - name: publish
     pipeline_file: pipeline_5.yml
