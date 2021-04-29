@@ -21,8 +21,6 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands: []
-    skip:
-      when: branch = 'master'
   - name: 'Block #4'
     task:
       jobs:
@@ -31,8 +29,6 @@ blocks:
 promotions:
   - name: Promotion 1
     pipeline_file: pipeline_2.yml
-    auto_promote:
-      when: 'branch = ''master'' '
   - name: Promotion 2
     pipeline_file: pipeline_3.yml
   - name: Promotion 3
