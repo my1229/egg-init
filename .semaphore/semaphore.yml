@@ -1,5 +1,5 @@
 version: v1.0
-name: Initial Pipeline
+name: 初始化配置
 agent:
   machine:
     type: e1-standard-2
@@ -33,5 +33,5 @@ promotions:
     pipeline_file: pipeline_3.yml
   - name: Promotion 3
     pipeline_file: pipeline_4.yml
-  - name: Promotion 4
+  - name: test & publish
     pipeline_file: pipeline_5.yml
